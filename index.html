@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravity Classes-Lucknow</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <nav class="flex place-content-between bg-zinc-100 h-26 fixed top-0 w-[100%] p-4 navbar" id="myNav">
+    <div id="left-nav" class="font-semibold"><img id="logo" class="justify-center"
+        src="https://gravityclasses.info/svg/gravity-logo-alt.svg" alt="" /></div>
+
+    <div id="right-nav" class="flex gap-5 justify-center items-center text-xl font-semibold">
+      <a href="index.html">Home</a>
+
+      <button id="dropdownDefaultButton1" data-dropdown-toggle="dropdown1" class="" type="button">Courses
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdown1" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg">
+        <ul class="py-2 text-sm " aria-labelledby="dropdownDefaultButton1">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Hybrid Courses</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Online Courses</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Test Series</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Study Material</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Crash Course</a>
+          </li>
+        </ul>
+      </div>
+      <button id="dropdownDefaultButton2" data-dropdown-toggle="dropdown2" class="" type="button">Students Zone
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-l">
+        <ul class="py-2 text-sm " aria-labelledby="dropdownDefaultButton2">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Hybrid Courses</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Online Courses</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Test Series</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Study Material</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Crash Course</a>
+          </li>
+        </ul>
+      </div>
+      <button id="dropdownDefaultButton4" data-dropdown-toggle="dropdown4" class="" type="button">Scholarship
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-l">
+        <ul class="py-2 text-sm " aria-labelledby="dropdownDefaultButton4">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">GTSE</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#results">Results</a>
+      <button id="dropdownDefaultButton3" data-dropdown-toggle="dropdown3" class="" type="button">About
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-l">
+        <ul class="py-2 text-sm " aria-labelledby="dropdownDefaultButton3">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">About us</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Media</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Career</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Gallery</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-lime-100 ">Contact us</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="" class="font-semibold border border-1 border-black px-5 py-1 hover:bg-lime-300">Enquiry</button>
+      <!-- <i class="fa-solid fa-bars hidden sm:inline"></i> -->
+
+    </div>
+
+  </nav>
+  <div id="banner" class="bg-lime-300 flex h-[100%] w-[100vw] justify-center items-center gap-2 mt-14">
+    <div id="left" class="flex justify-center"><img class="h-[500px] w-11/12"
+        src="https://gravityclasses.info/img/gravity-app.png" alt="">
+    </div>
+    <div id="right" class="flex flex-col mr-4 bg-lime-100 w-1/4 h-100 justify-start p-2 mt-4 rounded-xl">
+
+      <h1 class="m-2 text-xl font-bold text-lime-800">Join Gravity Classes today and discover a new way of Learning
+      </h1>
+      <form action="success.html" class="flex flex-col gap-4 justify-center items-center">
+        <input type="text" placeholder="Name" class="w-full rounded-lg border-2 border-black p-1" name="" id=""
+          required>
+        <input type="number" placeholder="Mobile" class="w-full rounded-lg border-2 border-black p-1" name="" id=""
+          required>
+        <select name="class" id="class" class="w-full p-1 rounded-lg border-2 border-black">
+          <option disabled="" selected=""></option>
+          <option value="">VIII</option>
+          <option value="">IX</option>
+          <option value="">X</option>
+          <option value="">XI</option>
+          <option value="">XII</option>
+          <option value="">Passout</option>
+        </select>
+        <select name="center" class="w-full rounded-lg border-2 border-black p-1" id="center">
+          <option disabled="" selected=""></option>
+          <option value="">Hazratganj</option>
+          <option value="">Indira Nagar</option>
+          <option value="">Gomtinagar</option>
+          <option value="">Aliganj</option>
+          <option value="">Ansal</option>
+          <option value="">Alambagh</option>
+        </select>
+        <input type="checkbox" name="" class="w-4 h-5" required>
+        <span class="text-sm font-semibold">I authorize Gravity Classes and its representatives to Call, SMS, Email or
+          WhatsApp me
+          about its products and offers. This consent overrides any registration for DND and NDNC</span>
+        <button class="border-2 border-black rounded p-2 text-xs self-start	hover:bg-lime-500">Register</button>
+        <span class="text-sm self-start	font-semibold text-lime-800">For any query Contact : +91 6306 700 200
+        </span>
+      </form>
+    </div>
+  </div>
+  <div class="flex justify-center gap-6 m-5 h-[100] max-lg:flex-col max-lg:items-center">
+    <div class="flex flex-col justify-center items-center w-3/6 gap-2 max-lg:w-full max-lg:items-center max-lg:m-0">
+      <span class="text-6xl font-bold text-lime-500 max-lg:text-4xl ">6th Year in a row</span>
+      <span class="text-xl font-bold max-lg:text-sm">Outstanding performance in JEE-Main 2021</span>
+      <span class="text-8xl font-bold text-lime-500 max-lg:text-7xl">174+</span>
+      <span class="text-4xl font-bold text-lime-500 max-lg:text-xl">Students above 99 percentile</span>
+      <span class="text-2xl font-bold">Top Ranks</span>
+      <div class="flex justify-between w-2/3 max-lg:w-full">
+        <div class="flex flex-col items-center justify-items-start	">
+          <span class="text-4xl font-bold text-lime-500">Nidhish</span>
+          <span class="text-xl font-bold">99.9935%</span>
+          <span class="text-xl font-bold">AIR 114</span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <span class="text-4xl font-bold text-lime-500">Nidhish</span>
+          <span class="text-xl font-bold">99.9935%</span>
+          <span class="text-xl font-bold">AIR 114</span>
+        </div>
+      </div>
+      <div class="flex justify-between w-2/3 max-lg:w-full">
+        <div class="flex flex-col items-center justify-items-start	">
+          <span class="text-4xl font-bold text-lime-500">Nidhish</span>
+          <span class="text-xl font-bold">99.9935%</span>
+          <span class="text-xl font-bold">AIR 114</span>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <span class="text-4xl font-bold text-lime-500">Nidhish</span>
+          <span class="text-xl font-bold">99.9935%</span>
+          <span class="text-xl font-bold">AIR 114</span>
+        </div>
+      </div>
+      <span class="text-3xl font-bold text-lime-500 m-2 max-lg:text-xl max-lg:m-0">15 Students under 1000 Rank in
+        General
+        Category</span>
+      <span class="text-4xl font-bold text-lime-500 m-2 max-lg:text-xl max-lg:m-0">Highest selection ratio in the
+        country</span>
+      <button class="bg-lime-500 p-4  font-bold text-2xl text-zinc-100"><a href="tel:+91 6306 700 200">CALL
+          NOW</a></button>
+    </div>
+    <div class="m-10 max-lg:m-0"><img src="https://gravityclasses.info/img/hero-img-2.png" alt=""></div>
+  </div>
+  <div id="jee" class="h-100 bg-lime-300 flex justify-center item-center gap-4 p-4 max-lg:flex-col">
+    <div class="bg-lime-100 flex flex-col justify-center items-center rounded-3xl">
+      <img class="h-72 max-lg:" src="https://gravityclasses.info/img/2021-engineering-top/akshat.png" alt="">
+      <span class="text-xl font-bold max-lg:text-lg">Akshat Madhan</span>
+      <span class="text-4xl font-bold text-lime-500 max-lg:text-xl">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500 max-lg:text-lg">JEE ADVANCED 2021</span>
+    </div>
+    <div class="flex flex-col bg-lime-100 justify-center items-center w-1/6 rounded-3xl max-lg:w-full max-lg:p-2">
+      <span class="text-4xl font-bold text-zinc-500 max-lg:text-xl">FREE COURSE</span>
+      <span class="text-4xl font-bold text-lime-500 max-lg:text-2xl">JEE</span>
+      <span class="text-xm self-center m-4 font-bold text-zinc-500 max-lg:m-0">Join our especially prepared JEE Course
+        for
+        aspiring
+        engineering
+        students.</span>
+      <button
+        class="bg-white h-1/6 w-2/3 text-xl hover:bg-lime-500 hover:text-black border border-2 border-black rounded-xl font-bold text-zinc-500 mt-4">
+        <a href="/courses.html">REGISTER</a></button>
+    </div>
+    <div class="bg-lime-100 flex flex-col justify-center items-center rounded-3xl ">
+      <img class="h-72" src="https://gravityclasses.info/img/2021-engineering-top/anuguru.png" alt="">
+      <span class="text-xl font-bold">Akshat Madhan</span>
+      <span class="text-4xl font-bold text-lime-500">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500">JEE ADVANCED 2021</span>
+    </div>
+  </div>
+  <div id="neet" class="h-3/5 bg-violet-200 flex justify-center gap-4 p-4 max-lg:flex-col max-lg:h-fit">
+    <div class="bg-violet-100 flex flex-col justify-center items-center rounded-3xl">
+      <img class="h-72" src="https://gravityclasses.info/img/2021-medical-top/zahid.png" alt="">
+      <span class="text-xl font-bold">Zahid Khan</span>
+      <span class="text-4xl font-bold text-violet-500">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500">JEE ADVANCED 2021</span>
+    </div>
+    <div class="flex flex-col bg-violet-100 justify-center items-center w-1/6 rounded-3xl max-lg:w-full max-lg:p-2">
+      <span class="text-4xl font-bold text-zinc-500 ">FREE COURSE</span>
+      <span class="text-4xl font-bold text-violet-500 ">JEE</span>
+      <span class="text-xm self-center	m-4 font-bold text-zinc-500 max-lg:w-full max-lg:p-2">Join our especially
+        prepared JEE Course for
+        aspiring
+        engineering
+        students.</span>
+      <button
+        class="bg-white h-1/6 w-2/3 text-xl hover:bg-violet-500 hover:text-black font-bold text-zinc-500 mt-4  border border-2 border-black rounded-xl">
+        <a href="/courses.html">REGISTER</a></button>
+    </div>
+    <div class="bg-violet-100 flex flex-col justify-center items-center rounded-3xl">
+      <img class="h-72" src="https://gravityclasses.info/img/2021-medical-top/azaan.png" alt="">
+      <span class="text-xl font-bold">Mohammad Azaan</span>
+      <span class="text-4xl font-bold text-violet-500">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500">JEE ADVANCED 2021</span>
+    </div>
+  </div>
+  <div id="neet" class="h-3/5 bg-amber-200 flex justify-center gap-4 p-4 max-lg:flex-col max-lg:h-fit">
+    <div class="bg-amber-100 flex flex-col justify-center items-center rounded-3xl">
+      <img class="h-72" src="https://gravityclasses.info/img/2021-ntse-top/abhinav.png" alt="">
+      <span class="text-xl font-bold">Zahid Khan</span>
+      <span class="text-4xl font-bold text-amber-500">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500">JEE ADVANCED 2021</span>
+    </div>
+    <div class="flex flex-col bg-amber-100 justify-center items-center w-1/6 rounded-3xl max-lg:w-full max-lg:p-2">
+      <span class="text-4xl font-bold text-zinc-500 ">FREE COURSE</span>
+      <span class="text-4xl font-bold text-amber-500 ">NTSE
+      </span>
+      <span class="text-xm self-center m-4 font-bold text-zinc-500">Join our especially
+        prepared JEE Course for
+        aspiring
+        engineering
+        students.</span>
+      <button
+        class="border bg-white h-1/6 w-2/3 hover:bg-amber-500 hover:text-black text-xl font-bold text-zinc-500 mt-4  border border-2 border-black rounded-xl">
+        <a href="/courses.html">REGISTER</a></button>
+    </div>
+    <div class="bg-amber-100 flex flex-col justify-center items-center rounded-3xl">
+      <img class="h-72" src="https://gravityclasses.info/img/2021-ntse-top/ayush.png" alt="">
+      <span class="text-xl font-bold">Mohammad Azaan</span>
+      <span class="text-4xl font-bold text-amber-500">AIR - 246</span>
+      <span class="text-xl font-bold text-zinc-500">JEE ADVANCED 2021</span>
+    </div>
+  </div>
+  <div id="courses" class="w-100 flex m-auto p-5 h-[100] flex-col h-100 justify-center items-center max-lg:p-1">
+    <Span class="text-5xl font-bold text-lime-500 ">Courses</Span>
+    <div class="m-2 max-lg:text-xs max-lg:m-0 max-lg:w-full max-lg:p-1">
+      <button id="button1" onclick="makeActive('button1')"
+        class="bg-lime-100 p-4 rounded-xl text-lg font-semibold text-lime-700 m-2 max-lg:p-1 max-lg:text-md max-lg:m-1">Hybrid
+        Courses</button>
+      <button id="button2" onclick="makeActive('button2')"
+        class="bg-lime-100 p-4 rounded-xl text-lg font-semibold text-lime-700 m-2 max-lg:p-1 max-lg:text-md max-lg:m-1">Online
+        Courses</button>
+      <button id="button3" onclick="makeActive('button3')"
+        class="bg-lime-100 p-4 rounded-xl text-lg font-semibold text-lime-700 m-2 max-lg:p-1 max-lg:text-md max-lg:m-1">Test
+        Series</button>
+      <button id="button4" onclick="makeActive('button4')"
+        class="bg-lime-100 p-4 rounded-xl text-lg font-semibold text-lime-700 m-2 max-lg:p-1 max-lg:text-md max-lg:m-1">Study
+        Material</button>
+      <button id="button5" onclick="makeActive('button5')"
+        class="bg-lime-100 p-4 rounded-xl text-lg font-semibold text-lime-700 m-2 max-lg:p-1 max-lg:text-md max-lg:m-1">Crash
+        Course</button>
+    </div>
+    <div class="Hybrid flex gap-4 flex-wrap w-100 justify-center">
+      <div class="bg-lime-100 rounded-xl p-4 text-lg w-1/4 flex flex-col justify-center items-center max-lg:w-80">
+        <span class="font-semibold">IGNITE</span>
+        <span class="text-zinc-400">(For VII passed students)</span>
+        <span class="text-sm flex justify-between w-full">
+          <span>Duration: 5 Years</span>
+          <span>Stream: Math & Bio</span>
+        </span>
+        <span class="font-semibold text-md w-full my-3">Preparation for Boards + JEE/NEET + KVPY + Olympiad +
+          NTSE</span>
+      </div>
+      <div class="bg-lime-100 rounded-xl w-1/4 p-4 text-lg w-1/4 flex flex-col justify-center items-center max-lg:w-80">
+        <span class="font-semibold">IGNITE</span>
+        <span class="text-zinc-400">(For VII passed students)</span>
+        <span class="text-sm flex justify-between w-full">
+          <span>Duration: 5 Years</span>
+          <span>Stream: Math & Bio</span>
+        </span>
+        <span class="font-semibold text-md w-full my-3">Preparation for Boards + JEE/NEET + KVPY + Olympiad +
+          NTSE</span>
+      </div>
+      <div class="bg-lime-100 rounded-xl w-1/4 p-4 text-lg w-1/4 flex flex-col justify-center items-center max-lg:w-80">
+        <span class="font-semibold">IGNITE</span>
+        <span class="text-zinc-400">(For VII passed students)</span>
+        <span class="text-sm flex justify-between w-full">
+          <span>Duration: 5 Years</span>
+          <span>Stream: Math & Bio</span>
+        </span>
+        <span class="font-semibold text-md w-full my-3">Preparation for Boards + JEE/NEET + KVPY + Olympiad +
+          NTSE</span>
+      </div>
+      <div class="bg-lime-100 rounded-xl w-1/4 p-4 text-lg w-1/4 flex flex-col justify-center items-center max-lg:w-80">
+        <span class="font-semibold">IGNITE</span>
+        <span class="text-zinc-400">(For VII passed students)</span>
+        <span class="text-sm flex justify-between w-full">
+          <span>Duration: 5 Years</span>
+          <span>Stream: Math & Bio</span>
+        </span>
+        <span class="font-semibold text-md w-full my-3">Preparation for Boards + JEE/NEET + KVPY + Olympiad +
+          NTSE</span>
+      </div>
+      <div class="bg-lime-100 rounded-xl w-1/4 p-4 text-lg w-1/4 flex flex-col justify-center items-center max-lg:w-80">
+        <span class="font-semibold">IGNITE</span>
+        <span class="text-zinc-400">(For VII passed students)</span>
+        <span class="text-sm flex justify-between w-full">
+          <span>Duration: 5 Years</span>
+          <span>Stream: Math & Bio</span>
+        </span>
+        <span class="font-semibold text-md w-full my-3">Preparation for Boards + JEE/NEET + KVPY + Olympiad +
+          NTSE</span>
+      </div>
+    </div>
+  </div>
+  <div id="program" class="flex flex-col items-center h-[100] justify-center mt-7 gap-4 ">
+    <span class="text-6xl font-bold text-lime-500 my-4 max-lg:text-4xl max-lg:px-1">Our Target Programs</span>
+    <span class="flex justify-center items-center gap-3 max-lg:flex-col">
+      <div class="flex flex-col justify-center items-center w-1/3 p-2 max-lg:w-80">
+        <span class="text-lime-800 font-bold text-xl">PERFORMER</span>
+        <span class="text-zinc-500">(For XII passed students)</span>
+        <span class="flex text-lg justify-between w-full">
+          <span>Duration: 1 Years</span>
+          <span>Stream: Math</span>
+        </span>
+        <span class="text-lg font-bold flex justify-center">Preparation for JEE & other exams like BITSAT, UPTU
+          etc.</span>
+        <span>1 Years Classroom Program for JEE (Main + Advanced) after Class XII.This is the best program for your
+          students want to go in IIT COLLEGE. It also enhances the analytical thinking, conceptual knowledge and
+          confidence level to face the rigors of competition. This course is designed to build strong conceptual
+          foundations IIT-JEE and other Engineering Exams.</span>
+        <button class="justify-self-start bg-lime-300 p-4 m-5">CALL NOW</button>
+      </div>
+      <div class="flex flex-col justify-center items-center w-1/3 p-2 max-lg:w-80">
+        <span class="text-rose-800 font-bold text-xl">ACHIVER</span>
+        <span class="text-zinc-500">(For XII passed students)</span>
+        <span class="flex text-lg justify-between w-full">
+          <span>Duration: 1 Years</span>
+          <span>Stream: Bio</span>
+        </span>
+        <span class="text-lg font-bold flex justify-center">Preparation for NEET & other exams like AIIMS etc.
+        </span>
+        <span>1 Years Classroom Program for JEE (Main + Advanced) after Class XII.This is the best program for your
+          students want to go in IIT COLLEGE. It also enhances the analytical thinking, conceptual knowledge and
+          confidence level to face the rigors of competition. This course is designed to build strong conceptual
+          foundations IIT-JEE and other Engineering Exams.</span>
+        <button class="justify-self-start bg-lime-300 p-4 m-5">CALL NOW</button>
+      </div>
+    </span>
+  </div>
+
+
+
+  <div id="" class="swiper-container flex flex-col items-center h-[60%] max-lg:hidden">
+    <h1 class=" text-5xl font-bold text-lime-500">Your Success is our Achievement</h1>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide flex gap-5 max-lg:gap-0 max-lg:flex-wrap">
+        <span class="bg-zinc-800 p-4">
+          <img src=" https://gravityclasses.info/img/previous-medical-top/avinash-yadav.jpg" class="h-[240px] w-[200px]"
+            alt="">
+          <h1 class="text-lg font-bold text-white">Avinash Yadav</h1>
+          <h1 class="text-5xl font-bold text-lime-400">56</h1>
+          <h1 class="text-xl font-bold text-lime-400">JEE Mains</h1>
+        </span>
+        <span class="bg-zinc-800 p-4">
+          <img src="https://gravityclasses.info/img/2019-medical-top/harshit.png" class="h-[240px] w-[200px]" alt="">
+          <h1 class="text-lg font-bold text-white">Sujan Singh</h1>
+          <h1 class="text-5xl font-bold text-lime-400">6</h1>
+          <h1 class="text-xl font-bold text-lime-400">JEE Advance</h1>
+        </span>
+        <span class="bg-zinc-800 p-4">
+          <img src="https://gravityclasses.info/img/2018-medical-top/kameelmullah.png" class="h-[240px] w-[200px]"
+            alt="">
+          <h1 class="text-lg font-bold text-white">Avinash Yadav</h1>
+          <h1 class="text-5xl font-bold text-lime-400">103</h1>
+          <h1 class="text-xl font-bold text-lime-400">UPSC</h1>
+        </span>
+        <span class="bg-zinc-800 p-4">
+          <img src="https://gravityclasses.info/img/2018-medical-top/abhishek-singh.png" class="h-[240px] w-[200px]"
+            alt="">
+          <h1 class="text-lg font-bold text-white">Avinash Yadav</h1>
+          <h1 class="text-5xl font-bold text-lime-400">94</h1>
+          <h1 class="text-xl font-bold text-lime-400">JEE </h1>
+        </span>
+        <span class="bg-zinc-800 p-4">
+          <img src="https://gravityclasses.info/img/2018-medical-top/pawan-bajpai.png" class="h-[240px] w-[200px]"
+            alt="">
+          <h1 class="text-lg font-bold text-white">Avinash Yadav</h1>
+          <h1 class="text-5xl font-bold text-lime-400">10</h1>
+          <h1 class="text-xl font-bold text-lime-400">JEE Mains</h1>
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="bg-lime-900 flex text-white justify-center items-center h-fit max-lg:flex-col max-lg: max-lg:p-3">
+    <div class="flex flex-col justify-center items-start w-1/4 max-lg:w-full max-lg:m-2">
+      <span class="font-bold text-4xl p-4 max-lg:p-0">About Gravity</span>
+      <span class="leading-8 text-lg max-lg:leading-tight max-lg:p-2">Gravity is a premier Institute for preparation of
+        various
+        competitive exams since
+        last 11
+        years. Right from
+        the very beginning, it was our vision to impart quality education in conducive ambience where a kind of deep
+        mutual understanding and trust develops between the mentors and the students</span>
+    </div>
+    <div class="flex flex-col justify-center items-center w-1/4 gap-2 max-lg:w-full max-lg:items-start max-lg:m-2">
+      <span class="font-bold text-4xl max-lg:px-1">Important Links</span>
+      <ul class="text-lg max-lg:p-2">
+        <li>
+          Gravity Talent Search Examination
+        </li>
+        <li>
+          School Integrated Program
+        </li>
+        <li>
+          Gravity Test Portal
+        </li>
+        <li>
+          Gravity Connect
+        </li>
+        <li>
+          Our Results
+        </li>
+        <li>
+          Contact Us
+        </li>
+        <li>
+          Terms and Conditions
+        </li>
+      </ul>
+    </div>
+    <div class="flex flex-col justify-center items-start w-1/6 gap-4 max-lg:w-full max-lg:m-2">
+      <span class="font-bold text-4xl p-4 max-lg:p-2">Get In Touch</span>
+      <span class="max-lg:p-2"> <b>Address</b>
+        <br>
+        D-3221, Indira Nagar near Munshipulia,
+        Lucknow</span>
+      <span class="max-lg:p-2">
+        <b>Email</b>
+        <br>
+        enquiry@gravityclasses.org
+      </span>
+      <span class="max-lg:p-2">
+        <b>Contact</b>
+        <br>
+        +91 6306 700 200</span>
+    </div>
+  </footer>
+  <div class="p-5 flex justify-start bg-lime-900 text-white">
+    <span class="w-1/2 flex justify-center max-lg:w-full">© Gravity Classes | All Rights Reserved 2020</span>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
